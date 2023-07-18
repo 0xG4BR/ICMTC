@@ -17,7 +17,7 @@ But that wasn’t a big deal as UPX can be unpacked easily , to do so we use the
 
 ![Alt text](image-4.png)
 
-But that wasn’t a big deal as UPX can be unpacked easily , to do so we use the UPX program as shown below :-
+When I decided to run the program there was no output and nothing was happening so I decided to load it into IDA and start Advanced analysis :-
 
 ![Alt text](image-5.png)
 
@@ -25,6 +25,6 @@ We can see that it only calls the “sub_7FF733601190” function which we can s
 
 ![Alt text](image-6.png)
 
-We can see that it only calls the “sub_7FF733601190” function which we can say it is the main function after analyzing the main function we see that it either return variable called result or it exits 
+By opening the “sub_7FF733601540” function to see what is the assigned to result variable….FOUND THE FLAG!!!!!
 
 ![Alt text](image-7.png)
